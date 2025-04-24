@@ -1,0 +1,28 @@
+/* CETTE SECTION IMPORTE LE FONT-FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* CETTE SECTION REMET A 0 LES PARAMETRES DU NAVIGATEUR  */
+@import url(./wild-card.css);
+
+/* CETTE SECTION COMPREND LA NAVBAR (LOGO, MENU)*/
+@import url(./header.css);
+
+/* CETTE SECTION COMPREND LA SECTION SEARCH, HEBERGEMENT & POPULAR, ACTIVITIE */
+@import url(./body.css);
+
+/* CETTE SECTION CONCERNE LE PIED DE PAGE */
+@import url(./footer.css);
+
+
+
+:root {
+  --blue: #0065fc;
+  --lightblue: #deebff;
+  --grey: #f2f2f2;
+}
+
+
+
+
+
+

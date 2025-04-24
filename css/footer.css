@@ -1,0 +1,21 @@
+/* FOOTER */
+footer {
+    display: flex;
+    background-color: var(--grey);
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 33%;
+    padding: 20px;
+
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+}
